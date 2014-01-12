@@ -1,7 +1,6 @@
 safe: true
 auto: false
 server: false
-        
-source: .
+baseurl: /timblog        
 markdown: rdiscount
 pygments: true
