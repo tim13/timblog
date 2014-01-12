@@ -3,6 +3,5 @@ auto: false
 server: false
         
 source: .
-destination: _site
 markdown: rdiscount
 pygments: true
