@@ -1,0 +1,23 @@
+* {
+	font-family:"微软雅黑","Arial","Helvetica","sans-serif";
+}
+
+body {
+	width:60%;
+	margin-left:20%;
+	overflow:auto;
+}
+
+#title {
+	height:5%;
+}
+
+#main {
+	height:90%;
+	font-size:17;
+	border-bottom:solid 1px lightgrey;
+}
+
+#commet {
+	text-align:center;
+}

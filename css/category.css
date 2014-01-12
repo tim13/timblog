@@ -1,0 +1,41 @@
+* {
+	font-family:"微软雅黑","Arial","Helvetica","sans-serif";
+}
+
+a:link,a:visited {
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover {
+	background-color:#313131;
+}
+
+li {
+	list-style-type:none;
+	margin:10px;
+}
+
+ul {
+	padding:0;
+}
+
+body {
+	width:60%;
+	margin-left:20%;
+}
+
+h3 {
+	border-bottom:solid 1px lightgrey;
+}
+
+p ul {
+	width:100%;
+	margin-left:20%;
+	font-size:18;
+	background-color:#FFFFCC;
+}
+
+p {
+	padding-left:9px;
+}

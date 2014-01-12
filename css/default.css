@@ -1,0 +1,73 @@
+* {
+	font-family:"微软雅黑","Arial","Helvetica","sans-serif";
+}
+
+a:link,a:visited {
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover {
+	background-color:#313131;
+}
+
+li {
+	list-style-type:none;
+	margin:2px;
+}
+
+#topDiv {
+	width:60%;
+	height:40px;
+	margin-left:20%;
+	border-bottom:solid 1px lightgrey;
+        font-size:25;
+	font-color:#000000;
+	text-align:left;
+}
+
+#sp {
+	float:right;
+	font-size:13;
+	font-color:#D3D3D3;
+}
+
+#mainDiv {
+	width:60%;
+	height:90%;
+	margin-top:0px;
+	margin-left:20%;
+	overflow:auto;
+}
+
+#recentPosts {
+	width:80%;
+	height:100%;
+	float:left;
+	border:solid 0px #000000;
+	background-color: #FFFFFF;
+}
+
+#category {
+	width:20%;
+	height:100%;
+	float:left;
+	border:solid 0px #000000;
+        background-color:#FFFFFF;
+}
+
+#category li {
+	font-size:15;
+}
+
+#category:after {
+	clear:both;
+}
+
+#bottomDiv {
+	width:60%;
+	height:25px;
+	margin-left:20%;
+        margin-bottom:0;
+	border:solid 0px #000000;
+}
