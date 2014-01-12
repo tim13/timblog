@@ -1,2 +1,8 @@
+safe: true
+auto: false
+server: false
+        
+source: .
+
 markdown: rdiscount
 pygments: true
