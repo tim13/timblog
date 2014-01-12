@@ -9,12 +9,11 @@ body {
 }
 
 #title {
-	height:5%;
+	font-size:20;
 }
 
 #main {
-	height:90%;
-	font-size:17;
+	font-size:15;
 	border-bottom:solid 1px lightgrey;
 }
 
