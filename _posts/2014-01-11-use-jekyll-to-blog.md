@@ -25,7 +25,7 @@ category: infotech
 
 定制theme步骤有4：
 
-1. 配置jekyll环境（windows下）。方便调试。（这一步你忽略也可以，因为可以git提交到github然后看效果。不过这样很痛苦）。教程点击<a href="http://huangxc.com/jekyll/">这里</a>。过时的地方在于编码问题，教程里提及如下：
+1.配置jekyll环境（windows下）。方便调试。（这一步你忽略也可以，因为可以git提交到github然后看效果。不过这样很痛苦）。教程点击<a href="http://huangxc.com/jekyll/">这里</a>。过时的地方在于编码问题，教程里提及如下：
 <div style="border:solid 1px #000000">
 <pre>
 <p>之前本地调试一直不成功，提示如下错误：</p>
@@ -36,7 +36,9 @@ category: infotech
 <p>修改为：</p>
 <code>self.content = File.read(File.join(base, name), :encoding =&gt; "utf-8")</code>
 </pre>
+</div>
 我用的jekyll版本是jekyll-1.4.2。修改如下：
+<div style="border:solid 1px #000000">
 <pre>
 文件的38行<code>self.content = File.read_with_options(File.join(base, name),merged_file_read_opts(opts))</code>改为
 <code>self.content = File.read(File.join(base, name), :encoding =&gt; "utf-8")</code>
@@ -44,8 +46,8 @@ category: infotech
 </div>
 意思是在jekyll读取文件时使用utf-8编码。
 
-2. 看<a href="http://jekyllrb.com/docs/home/">jekyll</a>文档，jekyll中文文档在<a href="http://jekyllcn.com/">这里</a>，写页面。要使用github pages 功能，创建分支有要求，github给出的说明在<a href="https://help.github.com/articles/creating-project-pages-manually">这里</a>。
+2.看<a href="http://jekyllrb.com/docs/home/">jekyll</a>文档，jekyll中文文档在<a href="http://jekyllcn.com/">这里</a>，写页面。要使用github pages 功能，创建分支有要求，github给出的说明在<a href="https://help.github.com/articles/creating-project-pages-manually">这里</a>。
 
-3. 写好页面，调试。做好后，提交到github。你定制的theme就好了。（2和3步骤一般是循环反复的）
+3.写好页面，调试。做好后，提交到github。你定制的theme就好了。（2和3步骤一般是循环反复的）
 
-4. 用markdown写博客文章。写好博文文件提交到github就可以了，或者你在步骤3先写好一篇一并提交也可以。markdown可以边学习边写，写多后就快了。教程在<a href="http://wowubuntu.com/markdown/#code">这里</a>。
+4.用markdown写博客文章。写好博文文件提交到github就可以了，或者你在步骤3先写好一篇一并提交也可以。markdown可以边学习边写，写多后就快了。教程在<a href="http://wowubuntu.com/markdown/#code">这里</a>。
